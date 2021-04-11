@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="row footerSection">
       <div className="col-sm-12 col-md-12 col-xl-12">
         <a
-          href="https://github.com/kkusche/SheCodes-Plus-Weather-App"
+          href="https://github.com/kkusche/shecodes-weather-app-react"
           target="_blank"
           rel="noreferrer"
         >

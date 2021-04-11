@@ -167,8 +167,8 @@
   background-clip: border-box;
   border: 1px solid black;
   border-radius: 0.25rem;
-  padding: 12px 30px 12px 30px;
-  margin: 10px;
+  padding: 12px 30px 24px 30px;
+  margin-bottom: 10px;
 }
 
 .App #current-location-button:hover {
@@ -179,6 +179,7 @@
 
 .App h1 {
   font-size: 36px;
+  margin-top: 25px;
 }
 
 /*======================================

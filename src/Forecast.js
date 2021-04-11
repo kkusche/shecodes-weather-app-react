@@ -1,4 +1,8 @@
 import React from "react";
+import { FaSun } from 'react-icons/fa';
+import {FaCloud} from 'react-icons/fa';
+import { FaSnowflake } from 'react-icons/fa';
+import { FaSmog } from 'react-icons/fa';
 
 export default function Location() {
   return (
@@ -11,7 +15,7 @@ export default function Location() {
               <span id="temp-day-one"></span>°
             </h4>
             <h5 className="weather-icon">
-              <i className="fas fa-cloud"></i>
+              <i><FaCloud /></i>
             </h5>
             <p className="card-text" id="day-one">
               hrs:min
@@ -27,7 +31,7 @@ export default function Location() {
               <span id="temp-day-two"></span>°
             </h4>
             <h5 className="weather-icon">
-              <i className="fas fa-cloud"></i>
+              <i><FaSun /></i>
             </h5>
             <p className="card-text" id="day-one">
               hrs:min
@@ -43,7 +47,7 @@ export default function Location() {
               <span id="temp-day-three"></span>°
             </h4>
             <h5 className="weather-icon">
-              <i className="fas fa-cloud"></i>
+              <i><FaCloud /></i>
             </h5>
             <p className="card-text" id="day-one">
               hrs:min
@@ -59,7 +63,7 @@ export default function Location() {
               <span id="temp-day-four"></span>°
             </h4>
             <h5 className="weather-icon">
-              <i className="fas fa-cloud"></i>
+              <i><FaSun /></i>
             </h5>
             <p className="card-text" id="day-one">
               hrs:min
@@ -75,7 +79,7 @@ export default function Location() {
               <span id="temp-day-five"></span>°
             </h4>
             <h5 className="weather-icon">
-              <i className="fas fa-cloud"></i>
+              <i><FaSun /></i>
             </h5>
             <p className="card-text" id="day-one">
               hrs:min

@@ -1,7 +1,15 @@
 import React, { useState } from "react";
+import { FaSearch } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaSun } from 'react-icons/fa';
+import { FaSnowflake } from 'react-icons/fa';
+import { FaSmog } from 'react-icons/fa';
+
+
+ 
 
 export default function Search(props) {
-  let [city, setCity] = useState(props.city);
+      let [city, setCity] = useState(props.city);
   let [temperature, setTemperature] = useState(props.temperature);
   let [unit, setUnit] = useState("C");
 
@@ -49,7 +57,7 @@ export default function Search(props) {
                 value="submit"
                 id="button-addon2"
               >
-                <i className="fas fa-search-location"></i>
+                <i>< FaSearch /></i>
               </button>
             </div>
           </form>
@@ -73,7 +81,7 @@ export default function Search(props) {
                 </span>
               </h2>
               <h6>
-                <i className="fas fa-sun" id="main-icon"></i>
+                <i id="main-icon">< FaSun /></i>
                 <p>
                   <span className="Description" id="description">
                     sunny
@@ -98,7 +106,7 @@ export default function Search(props) {
         </div>
         <div className="col-sm-12 col-md-3 col-xl-6" id="card-body2">
           <div href="/" className="currentLocation">
-            <i className="fas fa-map-marker-alt" id="current-location-button">
+            <i id="current-location-button">< FaMapMarkerAlt />
               {" "}
             </i>
             <h1 id="city">{props.city}</h1>

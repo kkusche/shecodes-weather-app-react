@@ -1,4 +1,3 @@
-import React from "react";
 import { FaSun } from 'react-icons/fa';
 import {FaCloud} from 'react-icons/fa';
 import { FaSnowflake } from 'react-icons/fa';
